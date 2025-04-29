@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Catalog Redis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Book Catalog with Redis Cache</h1>
+
+<div class="form-container">
+  <input type="number" id="bookId" placeholder="Enter Book ID">
+  <button onclick="fetchBook()">Fetch Book</button>
+  <button onclick="clearCache()">Clear Cache</button>
+</div>
+
+<div id="bookInfo"></div>
+
+<div id="timingInfo"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
